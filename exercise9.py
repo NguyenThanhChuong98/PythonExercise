@@ -1,12 +1,6 @@
-a = input("Please input your words:")
-
-
 def remove_index_char(str, n):
-    x = list(str)
-    y = x[n]
-    print(y)
-    x.remove(y)
-    print(x)
+    return str[:n] + str[n+1:]
 
 
-remove_index_char(a, 2)
+
+print(remove_index_char("exercise", 2))
