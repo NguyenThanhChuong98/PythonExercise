@@ -1,5 +1,10 @@
 a = input("Please input your words: ")
 
-b = len(a)
 
-print("The length of a are " + str(b))
+def len_of_a_str(string):
+    x = string
+    b = len(x)
+    print("the length of the string ",b)
+
+
+len_of_a_str(a)

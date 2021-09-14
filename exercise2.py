@@ -1,9 +1,13 @@
 a = input("Please input your words: ")
 
-b = dict()
 
-for x in a:
-    c = a.count(x)
-    b[x] = c
+def count_numb_of_char(string):
+    b = dict()
+    c = string
+    for x in c:
+        d = c.count(x)
+        b[x] = d
+    print(b)
 
-print(b)
+
+count_numb_of_char(a)

@@ -1,7 +1,7 @@
 a = input("Please input your words: ")
 
 
-def get_the_longest_word(string):
+def get_longest_word(string):
     b = string
     c = b.split()
     count = 0
@@ -9,7 +9,8 @@ def get_the_longest_word(string):
         if len(x) > count:
             count = len(x)
             word = x
+    print(len(x))
     print("the longest word is " + word)
 
 
-get_the_longest_word(a)
+get_longest_word(a)

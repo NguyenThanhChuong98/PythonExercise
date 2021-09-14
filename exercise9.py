@@ -2,12 +2,11 @@ a = input("Please input your words:")
 
 
 def remove_index_char(str, n):
-    x = str
+    x = list(str)
     y = x[n]
-    z = x.replace(y,'')
-    print(z)
-
-
+    print(y)
+    x.remove(y)
+    print(x)
 
 
 remove_index_char(a, 2)

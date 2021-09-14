@@ -10,7 +10,7 @@ def swap(string1, string2):
     x[:2] = y[:2]
     y[:2] = z[:2]
 
-    c = str(x) + str(y)
+    c = x + y
     return ''.join(c)
 
 
